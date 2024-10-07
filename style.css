@@ -1,0 +1,80 @@
+/*
+Theme Name: Twenty Twenty-Four
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+.wrapper{
+	
+	display: grid;
+	grid-template-columns: 1280px;
+	grid-template-rows:720px 720px 720px 720px 720px 720px 75px;
+}
+.1page{
+
+}
+.2page{
+	display: grid;
+	
+
+}
+.footer{
+	display: grid;
+	background-color: black;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.text1{
+	font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 46px;
+text-align: center;
+
+color: white;
+padding-top: 15px;
+}
+.text2{
+	font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 46px;
+text-align: center;
+
+color: white;
+padding-top: 15px;
+}
+.text3{
+	font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 46px;
+text-align: center;
+
+color: white;
+padding-top: 15px;
+}
